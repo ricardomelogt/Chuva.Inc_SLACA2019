@@ -1,0 +1,271 @@
+.comments.panel_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+/* add area */
+
+.add_area {
+    border-bottom: 1px solid #CECECE;
+    text-align: center;
+}
+
+.add_area h5 {
+    color:#F0813D;
+    font-size: 18px;
+}
+
+.criar_topico h5{
+    margin-bottom: 35px;
+}
+
+.criar_topico.success h5 {
+    margin-bottom: 18px;
+}
+
+.icones_add_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 35px;
+}
+
+.panel .add_area p {
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.panel .add_area .success p {
+    max-width: 100%;
+}
+
+.success .discover_link {
+    display: block;
+    margin: 30px auto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add_btn {
+    position: relative;
+    top: 15px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0;
+    width: 200px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.add_area .bi-plus-lg {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* add form */
+
+.add_form p {
+    margin-bottom: 12px;
+}
+
+.add_form h5 {
+    text-align: left;
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+#add_subject, #add_text {
+    display: block;
+    padding: .8rem 1.5rem;
+    font-size: 14px;
+    font-family: 'Quicksand';
+    width: 100%;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem .25rem 0 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-sizing: border-box;
+}
+
+#add_subject:focus, #add_text:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dba261;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+}
+
+#add_text {
+    resize: none;
+}
+
+.text_controls {
+    margin-bottom: 15px;
+}
+
+.text_editor {
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: flex;
+    gap:10px;
+    position: relative;
+    padding-left: 20px;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.editor_bold {
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.editor_italic {
+    padding: 5px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.enviar {
+    width: 200px;
+    height: 100%;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0 0 0.25rem 0;
+}
+
+/* cards */
+
+#cards_wrapper {
+    margin-top: 30px;
+}
+
+.comment_card {
+    margin-bottom: 17px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.comment_post {
+    padding: 17px 23px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    font-size: 14px;
+    position: relative;
+}
+
+.comment_post h5 {
+    color:#F0813D;
+    font-size: 16px;
+}
+
+.card_autor {
+    font-size: 12px;
+    font-weight: 500;
+    color: #5C5C5C;
+    margin-bottom: 10px;
+}
+
+.card_text {
+    margin-bottom: 10px;
+}
+
+.option_area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_options .bi-three-dots-vertical {
+    color:#F0813D;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.option_area .btn.like {
+    padding: 4px 10px;
+    font-size: 15px;
+}
+
+.count_info {
+    font-size: 14px;
+    color: #757575;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.count_info .like_count {
+    margin: 0 15px;
+}
+
+.comment_post.comment_awnser_author {
+    background: #F8F8F8;
+}
+
+.categoria_autor {
+    float:right;
+    position:relative;
+    top:-5px;
+    right:10px;
+}
+
+.categoria_autor span {
+    margin-right: 35px;
+    font-weight: bold;
+    font-size: 14px;
+    color:#ED7839;
+    position: relative;
+    top:-5px;
+}
+
+/* new card overlay */
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(230,230,230,0.9);
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay svg {
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.overlay a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}

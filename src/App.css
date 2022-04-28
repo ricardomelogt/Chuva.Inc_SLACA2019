@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+}
+
+.page_root {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color:  #ED7839;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  justify-content: center;
+}
+
+a {
+  color: #ED7839;
+}
