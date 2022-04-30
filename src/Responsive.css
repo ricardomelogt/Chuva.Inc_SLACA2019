@@ -41,3 +41,42 @@
     }
 
 }
+
+@media (max-width: 768px) {
+
+    .page_root {
+        flex-direction: column;
+    }
+
+    /* sidebar */
+    .sidebar_container {
+        width: 100%;
+        position: fixed;
+        background-color: #FFFFFF;
+    }
+
+    .sidebar_container h1 {
+        padding-left: 24px;
+        text-align: left;
+        position: relative;
+    }
+
+    .sidebar_container h1 i {
+        display: inline;
+        position: absolute;
+        right: 0px;
+        top: -15px;
+        padding: 15px;
+    }
+
+    .sidebar_container img {
+        display: none;
+    }
+
+    /* header */
+
+    .header_container {
+        margin-top: 68px;
+    }
+
+}
