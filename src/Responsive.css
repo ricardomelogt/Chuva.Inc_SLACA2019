@@ -93,12 +93,15 @@
         max-width: 100px;
     }
 
+    /* content */
+
     .trabalho_title {
         flex-direction: column;
     }
 
     .botoes {
         justify-content: flex-start;
+        padding-bottom: 20px;
     }
 
     .video_overlay {
@@ -133,4 +136,21 @@
         font-size: 12px;
     }
 
+    /* footer */
+
+    .footer_container {
+        margin-top: 0px;
+    }
+
+    .footer_wrapper {
+        flex-flow: column;
+    }
+
+    .footer_wrapper .footer_left {
+        width: 100%;
+    }
+
+    .footer_wrapper .footer_right {
+        padding-left: 0;
+    }
 }
