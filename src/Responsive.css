@@ -93,4 +93,44 @@
         max-width: 100px;
     }
 
+    .trabalho_title {
+        flex-direction: column;
+    }
+
+    .botoes {
+        justify-content: flex-start;
+    }
+
+    .video_overlay {
+        padding: 10px;
+    }
+
+    .video_overlay .video_info {
+        gap: 5px;
+    }
+
+    .video_overlay h3 {
+        font-size: 0.8rem;
+    }
+
+    .video_info img {
+        width: 40px;
+    }
+
+    .video_info p.nome {
+        font-size: 0.7rem;
+    }
+
+    .video_info p.instituicao {
+        font-size: 0.85rem;
+    }
+
+    .overlay p {
+        text-align: center;
+    }
+
+    .count_info {
+        font-size: 12px;
+    }
+
 }
