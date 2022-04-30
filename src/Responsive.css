@@ -69,6 +69,14 @@
         padding: 15px;
     }
 
+    #sidebar_menu {
+        display: none;
+    }
+
+    #sidebar_menu.show {
+        display: block;
+    }
+
     .sidebar_container img {
         display: none;
     }
@@ -76,7 +84,13 @@
     /* header */
 
     .header_container {
-        margin-top: 68px;
+       padding-top: 80px;
+    }
+
+    .btn_language {
+        flex:1;
+        font-size: 0.6rem;
+        max-width: 100px;
     }
 
 }

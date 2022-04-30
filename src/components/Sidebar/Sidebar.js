@@ -4,7 +4,7 @@ import Logo from '../../img/Logo.png';
 export const Sidebar = () => {
 
     const toggleMenu = () => {
-        document.getElementById('sidebar_menu').classList.toggle('hidden');
+        document.getElementById('sidebar_menu').classList.toggle('show');
     }
 
     return(
