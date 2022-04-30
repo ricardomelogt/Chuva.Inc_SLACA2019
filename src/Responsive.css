@@ -1,0 +1,43 @@
+/* media queries */
+
+@media (max-width: 1200px) {
+
+    /* sidebar */
+
+    .sidebar_container {
+        width: 180px;
+    }
+    
+    /* header */   
+
+    .header_container {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding: 5px 15px;
+    }
+    .header_title {
+        order: 1;
+        padding: 20px 0;
+    }
+
+    /* content */
+
+    .content_container {
+        padding: 20px 15px;
+    }
+
+    .trabalho_content {
+        flex-direction: column;
+    }
+
+    /* footer */
+
+    .footer_container {
+        padding: 20px 15px;
+    }
+
+    .footer_right {
+        font-size: 14px;
+    }
+
+}
